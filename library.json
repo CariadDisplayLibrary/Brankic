@@ -1,21 +1,21 @@
 {
     "name": "Brankic",
-    "keywords": "display, displaycore, tft, lcd, glcd, oled, graphics, icons",
-    "description": "Brankic Mono Icon library for Display Core",
-    "homepage": "http://displaycore.org/wiki/index.php?title=Brankic",
+    "keywords": "display, displaycore, tft, lcd, glcd, oled, graphics, font",
+    "description": "Brankic for DisplayCore",
+    "homepage": "http://displaycore.org/wiki/index.php?title=Acorn",
     "repository":
     {
       "type": "git",
-      "url": "https://github.com/MajenkoLibraries/DisplayCore.git"
+      "url": "https://github.com/DisplayCore/Brankic.git"
     },
-    "dependencies": [ { "name": "DisplayCore", "version": "1.18.8" } ],
+    "dependencies": [ { "name": "DisplayCore", "version": "2.1.0" } ],
     "export": {
-        "include": "Icons/Brankic"
+        "exclude": "debian"
     },
     "authors": {
         "name": "Majenko Technologies", "url": "http://majenko.co.uk"
     },
-    "version": "1.18.8",
+    "version": "2.0.2",
     "frameworks": "arduino",
     "platforms": "microchippic32"
 }
