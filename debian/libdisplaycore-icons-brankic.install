@@ -1,2 +1,2 @@
-Brankic.cpp libraries/DisplayCore/Brankic
-Brankic.h libraries/DisplayCore/Brankic
+src libraries/DisplayCore/Brankic
+library.properties libraries/DisplayCore/Brankic
