@@ -1,16 +1,17 @@
-Source: libdisplaycore-icons-brankic
+Source: libcariad-icons-brankic
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-icons-brankic
+Package: libcariad-icons-brankic
+Replaces: libdisplaycore-icons-brankic
 Section: main
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Icons
-Depends: libdisplaycore-core, libdisplaycore-toolkit-monoicon
+Depends: libcariad-core, libcariad-toolkit-monoicon
 Provides: Brankic.h
 Description: Brankic
  Brankic icon set for the MonoIcon widget system
